@@ -2,8 +2,13 @@
 
 Small introduction of practical use cases of Nix.
 
-All the use cases here use flakes which is still an "experimental" feature.
-Flakes seem to have a high adoption and are an incredibly convenient way to properly pin the dependencies, to produce truly immutable environments.
+To install nix, you can follow the instructions [here](https://nixos.org/download.html), which tell you to run the following:
+```sh
+$ sh <(curl -L https://nixos.org/nix/install) --daemon
+```
+
+All of the use cases here use flakes which is still an "experimental" feature.
+Flakes have a high adoption and are an incredibly convenient way to properly pin the dependencies, to produce truly immutable environments.
 
 How is this different from Docker? It's true that you can have somewhat immutable environments with Docker, but that is only true if you have a built image.
 If every developer builds an image from a Dockerfile in version control, there is no guarantee that it won't break at some point if it includes downloading external dependencies.
