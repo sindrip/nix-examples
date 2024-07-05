@@ -1,7 +1,7 @@
 # Home environments
 The most common way to manage your home environment with Nix, is with [Home Manager](https://github.com/nix-community/home-manager).
 
-I personally, don't use it and build an environment with the packages that I want and then install them `nix profile`.
+I personally, don't use it and build an environment with the packages that I want and then install them with `nix profile`.
 
 Home manager does a very similar thing, but comes with extra conveniences and allows you to configure and generate the dotfiles with nix.
 
