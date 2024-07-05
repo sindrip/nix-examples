@@ -19,3 +19,6 @@ or the simpler approach of creating a `~/.config/nix/nix.conf` as shown below
 ```nix filename="~/.config/nix/nix.conf"
 experimental-features = nix-command flakes
 ```
+
+## Some Links
+[A flake with a devshell](https://fasterthanli.me/series/building-a-rust-service-with-nix/part-10#a-flake-with-a-dev-shell)
