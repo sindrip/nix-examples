@@ -9,8 +9,7 @@ You need to create a `.envrc` file that points to the flake you want to use, whi
 use flake .
 ```
 
-Or we can even point to a remote flake, for example the one we already made for node
- can even point to a remote flake, for example the one we already made for node
+Or we can even point to a remote flake, like the onew we already made for node.
 ```bash
 use flake "github:sindrip/nix-examples?dir=1-nix-develop/1-node"
 ```
